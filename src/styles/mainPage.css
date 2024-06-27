@@ -1,0 +1,38 @@
+#wrapper {
+  overflow-x: hidden;
+}
+.front-page {
+  display: flex;
+}
+.frame-div {
+  display: flex;
+}
+.frame {
+  background-color: #0793ca;
+  height: 600px;
+  position: absolute;
+}
+.t-100 {
+  width: 700px;
+  z-index: 1;
+}
+.t-50 {
+  opacity: 50%;
+  width: 800px;
+  z-index: 2;
+}
+.t-30 {
+  opacity: 30%;
+  width: 900px;
+  z-index: 3;
+}
+.main-img-div {
+  display: flex;
+  justify-content: flex-end;
+  height: 600px;
+  width: 100vw;
+}
+.main-img {
+  height: 600px;
+  width: fit-content;
+}

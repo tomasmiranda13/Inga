@@ -1,0 +1,11 @@
+.wrapper-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.menu {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  appearance: none;
+}
