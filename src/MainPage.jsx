@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import "./styles/mainPage.css";
 import Proposal from "./Proposal";
+import Card from "./components/Card";
 
 export default function MainPage() {
   return (
@@ -19,6 +20,21 @@ export default function MainPage() {
         </div>
       </div>
       <Proposal />
+      <div className="wrapper-we-are">
+        <h2>Somos profesionales</h2>
+        <div className="cards-center">
+          <Card
+            img={"imagen-doc.png"}
+            name={"Gabriela Frontan"}
+            grade={"Odontologa"}
+          />
+          <Card
+            img={"imagen-doc.png"}
+            name={"Ines Bañon"}
+            grade={"Higienista dental"}
+          />
+        </div>
+      </div>
       <Footer />
     </div>
   );

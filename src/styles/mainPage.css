@@ -36,3 +36,17 @@
   height: 600px;
   width: fit-content;
 }
+.wrapper-we-are {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.wrapper-we-are h2 {
+  color: #0793ca;
+}
+.cards-center {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
