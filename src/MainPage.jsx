@@ -11,12 +11,16 @@ export default function MainPage() {
       <Nav />
       <div className="front-page">
         <div className="frame-div">
-          <div className="frame t-100"></div>
+          <div className="frame t-100">
+            <h1>Queremos que apruebes</h1>
+            <h3>Te preparamos hasta el ultimo instante</h3>
+            <span>Diseñamos un metodo basado en experiencia y estudio</span>
+            <button className="more-button">Saber más</button>
+          </div>
           <div className="frame t-50"></div>
           <div className="frame t-30"></div>
         </div>
         <div className="main-img-div">
-          <img className="main-img" src="main-image.jpg" alt="" />
         </div>
       </div>
       <Proposal />
